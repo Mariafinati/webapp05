@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from Massaki01 import *
+from ACTlib01 import *
 
 def main():
    Configurar_Pagina("WebApp01 - TESTE", "amplo", "auto", "https://docs.streamlit.io", "mailto:prof.massaki@gmail.com", "#### Aplicativo Teste", "©️")
