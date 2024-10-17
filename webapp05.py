@@ -13,7 +13,7 @@ def main():
    st.sidebar.image(image, width=300)
    url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtWlwpc4_SPunNRbY9MWEsLemJ4-kr7JK1OE8avUWMU7BULFMQNt6-bFkIsJ-_7nOvH3sFOSyOFkeb/pub?gid=1851101266&single=true&output=csv"
    db = Ler_GooglePlanilha(url, coluna_indice = None)
-   Escrever(db.columns())
+   Escrever(db.columns)
    Escrever(db)
 
 if __name__ == '__main__':
