@@ -11,7 +11,7 @@ def main():
    Escrever('Observação: Em desenvolvimento!', 'subcabecalho')
    image = Image.open('desenvolvimento.jpg')
    st.sidebar.image(image, width=300)
-   url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQtWlwpc4_SPunNRbY9MWEsLemJ4-kr7JK1OE8avUWMU7BULFMQNt6-bFkIsJ-_7nOvH3sFOSyOFkeb/pub?gid=1851101266&single=true&output=csv"
+   url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSE9-TpgudGYbsQtGsI6JNdusZYfCLZHNYvRbSd8NaT10h3-mosU-nhxrIi8gnnbU5v98v2my4hDQHd/pub?gid=883688627&single=true&output=csv"
    db = Ler_GooglePlanilha(url, coluna_indice = None)
    db.columns = ['DataHora', 'Idade', 'Jundiaiense', 'Qualidade', 'Sonho']
    Escrever(db)
